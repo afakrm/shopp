@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to left top, #a9a4d1, #c7dad2);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    background-color: #88da93; /* Ajout de la couleur de fond */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .logo {
+    color: #000;
+    margin-right: 50px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none; /* Suppression du soulignement des liens */
+    transition: 0.1s;
+}
+nav a h4{
+    color: #000000;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+div h2{
+    margin: 140px;
+    margin-left: -200px;
+}
+input:focus,
+button:focus,
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #fff;
+}
+
+.table tr,
+.table tr td {
+    vertical-align: middle;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container .form-control {
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+#myTable .form-control {
+    width: auto;
+    display: inline-block;
+}
+
+.cart-qty-plus,
+.cart-qty-minus {
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 25rem;
+}
+
+.cart-qty-plus:hover,
+.cart-qty-minus:hover {
+    background-color: #5161ce;
+    color: #fff;
+}
+
+.img-prdct {
+    width: 50px;
+    height: 50px;
+    background-color: #5161ce;
+    border-radius: 4px;
+}
+
+.img-prdct img {
+    width: 100%;
+}
+
